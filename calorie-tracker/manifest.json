@@ -1,0 +1,24 @@
+{
+  "name": "Khana Calorie Tracker",
+  "short_name": "Khana",
+  "description": "Photo-based calorie and macro tracker for everyday Nepali and U.S. food.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f6f8f7",
+  "theme_color": "#16a34a",
+  "lang": "en",
+  "categories": ["health", "fitness", "food"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Log meal with photo", "short_name": "Photo", "url": "./?action=photo", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Search foods", "short_name": "Search", "url": "./?action=search", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
